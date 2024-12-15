@@ -37,7 +37,6 @@ values:
     name: test-pf-prj-app-1
     org_id: null
     project_id: test-pf-prj-app-1
-    skip_delete: false
     timeouts: null
   module.project-factory.module.projects["prj-app-1"].google_project_service.project_services["stackdriver.googleapis.com"]:
     disable_dependent_services: false
@@ -68,7 +67,6 @@ values:
     name: test-pf-prj-app-2
     org_id: null
     project_id: test-pf-prj-app-2
-    skip_delete: false
     timeouts: null
   module.project-factory.module.projects["prj-app-2"].google_project_service.project_services["stackdriver.googleapis.com"]:
     disable_dependent_services: false

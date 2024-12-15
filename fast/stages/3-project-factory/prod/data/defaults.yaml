@@ -15,10 +15,8 @@ essential_contacts: ["gcp-billing-admins@hoodat.app"]
 
 # [opt] Labels set for all projects
 labels:
-  environment: dev
+  environment: prod
   application: picture-book-author
 
 # [opt] Additional notification channels for billing
 notification_channels: []
-
-folder_id: folders/382731122090

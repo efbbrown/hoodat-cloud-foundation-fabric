@@ -320,7 +320,6 @@ values:
     labels: null
     name: prefix-audit-logs
     project_id: prefix-audit-logs
-    skip_delete: false
     timeouts: null
   module.test.module.log-export-project[0].google_project_iam_binding.authoritative["roles/editor"]:
     condition: []

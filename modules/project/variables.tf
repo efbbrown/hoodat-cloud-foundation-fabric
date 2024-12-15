@@ -315,12 +315,6 @@ variable "shared_vpc_service_config" {
   }
 }
 
-variable "skip_delete" {
-  description = "Allows the underlying resources to be destroyed without destroying the project itself."
-  type        = bool
-  default     = false
-}
-
 variable "tag_bindings" {
   description = "Tag bindings for this project, in key => tag value id format."
   type        = map(string)

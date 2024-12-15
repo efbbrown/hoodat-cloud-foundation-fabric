@@ -55,12 +55,12 @@ module "organization" {
   org_policies = {
     "iam.allowedPolicyMemberDomains" = {
       rules = [
-        {
-          allow = { values = local.all_drs_domains }
-          condition = {
-            expression = "!resource.matchTag('${var.organization.id}/${var.tag_names.org-policies}', 'allowed-policy-member-domains-all')"
-          }
-        },
+        # {
+        #   allow = { values = local.all_drs_domains }
+        #   condition = {
+        #     expression = "!resource.matchTag('${var.organization.id}/${var.tag_names.org-policies}', 'allowed-policy-member-domains-all')"
+        #   }
+        # },
         {
           allow = { all = true }
           condition = {

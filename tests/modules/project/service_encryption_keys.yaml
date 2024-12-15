@@ -33,7 +33,6 @@ values:
     name: my-project
     org_id: null
     project_id: my-project
-    skip_delete: false
     timeouts: null
 
 counts:
